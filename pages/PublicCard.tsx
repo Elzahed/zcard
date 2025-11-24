@@ -380,9 +380,6 @@ const PublicCard: React.FC = () => {
         {/* Footer Branding */}
         <div className="text-center py-6 text-gray-400 text-xs bg-gray-50 border-t border-gray-100">
           <p>{t.poweredBy}</p>
-          <Link to="/admin/dashboard" className="text-gray-300 hover:text-blue-500 transition-colors mt-2 inline-block">
-             {t.adminPanel}
-          </Link>
         </div>
 
       </div>
